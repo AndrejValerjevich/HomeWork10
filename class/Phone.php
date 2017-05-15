@@ -36,6 +36,6 @@ final class Phone extends Product
     public function showInformation()
     {
         parent::showInformation();
-        echo '<br/>Диагональ экрана: ' . $this->getCategory() . '<br/>Камера: ' . $this->getName(), PHP_EOL;
+        echo '<br/>Диагональ экрана: ' . $this->getDiagonal() . '<br/>Камера: ' . $this->getCamera();
     }
 }
