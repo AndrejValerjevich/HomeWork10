@@ -36,7 +36,7 @@ final class Laptop extends Product
     public function showInformation()
     {
         parent::showInformation();
-        echo '<br/>Объем памяти: ' . $this->getMemory() . '<br/>Процессор: ' . $this->getProcessor(), PHP_EOL;
+        echo '<br/>Объем памяти: ' . $this->getMemory() . '<br/>Процессор: ' . $this->getProcessor();
     }
 
 }
