@@ -70,7 +70,7 @@ class Product implements DefinedProduct
 
     public function showInformation()
     {
-        echo 'Категория: ' . $this->getCategory() . '<br/>Наименование: ' . $this->getName() . '<br/>Скидка: ' . $this->getDiscount() . '<br/>Вес: ' . $this->getWeight() . '<br/>Цена с учетом скидки: ' . $this->getDiscountedPrice(), PHP_EOL;
+        echo 'Категория: ' . $this->getCategory() . '<br/>Наименование: ' . $this->getName() . '<br/>Скидка: ' . $this->getDiscount() . '<br/>Вес: ' . $this->getWeight() . '<br/>Цена с учетом скидки: ' . $this->getDiscountedPrice();
     }
 }
 
