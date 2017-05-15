@@ -43,7 +43,7 @@ final class Freezer extends Product
             $this->setDiscount(10);
         }
         parent::showInformation();
-        echo '<br/>Цвет: ' . $this->getColor() . '<br/>Макс. Холод: ' . $this->getCold(), PHP_EOL;
+        echo '<br/>Цвет: ' . $this->getColor() . '<br/>Макс. Холод: ' . $this->getCold();
     }
 
     public function getDiscountedPrice()
